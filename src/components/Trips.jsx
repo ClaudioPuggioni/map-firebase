@@ -29,7 +29,7 @@ export default function Trips() {
       <div id="tripsPlanning">
         <div
           id="planningHeader"
-          className="mb-2 w-40 px-2 py-1.5 text-l font-semibold cursor-pointer text-xl rounded-md bg-lime-500 shadow-sm shadow-red-700 flex justify-center items-center"
+          className="mb-2 w-40 px-2 py-1.5 text-l font-semibold cursor-pointer text-xl rounded-md bg-lime-500 shadow-sm shadow-red-600 flex justify-center items-center"
           onClick={() => dispatch(toggleWin("planning"))}
         >
           Upcoming Trips
@@ -43,7 +43,7 @@ export default function Trips() {
       <div id="tripsCompleted">
         <div
           id="completedHeader"
-          className="mb-2 w-44 px-2 py-1.5 text-l font-semibold cursor-pointer text-xl rounded-md bg-lime-500 shadow-sm shadow-red-700 flex justify-center items-center"
+          className="mb-2 w-44 px-2 py-1.5 text-l font-semibold cursor-pointer text-xl rounded-md bg-lime-500 shadow-sm shadow-red-600 flex justify-center items-center"
           onClick={() => dispatch(toggleWin("completed"))}
         >
           Completed Trips
@@ -57,7 +57,7 @@ export default function Trips() {
       <div id="tripsCancelled" className="mb-10">
         <div
           id="cancelledHeader"
-          className="mb-2 w-40 px-2 py-1.5 text-l font-semibold cursor-pointer text-xl rounded-md bg-lime-500 shadow-sm shadow-red-700 flex justify-center items-center"
+          className="mb-2 w-40 px-2 py-1.5 text-l font-semibold cursor-pointer text-xl rounded-md bg-lime-500 shadow-sm shadow-red-600 flex justify-center items-center"
           onClick={() => dispatch(toggleWin("cancelled"))}
         >
           Cancelled Trips
