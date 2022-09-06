@@ -23,7 +23,7 @@ export default function AddTrip() {
   const [zoom, setZoom] = useState(13);
   const [destinations, setDestinations] = useState([]);
   const [location, setLocation] = useState(null);
-  const [companions, setCompanions] = useState([]);
+  // const [companions, setCompanions] = useState([]);
   mapboxgl.accessToken = "pk.eyJ1IjoiYXJuYXZwdXJpIiwiYSI6ImNrZHNhb3ppYTBkNDYyeHFza3diMXZtdnkifQ.fCuBiUZ9JjgUbBlaBDvPrw";
 
   useEffect(() => {

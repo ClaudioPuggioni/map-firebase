@@ -10,8 +10,9 @@ export default function Trips() {
   const location = useLocation();
 
   useEffect(() => {
-    console.log("LOCATION.KEY:", location.key);
+    // console.log("LOCATION.KEY:", location.key);
     dispatch(getData());
+    // eslint-disable-next-line
   }, [location.key]);
   // }, []);
 
